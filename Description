@@ -1,0 +1,18 @@
+Title: Water Quality in Canada Climate
+Version: 0.1.0
+Author: Nicholas Baumeister
+Maintainer: Nicholas Baumeister <nbaumeister@usf.edu>
+Description: Long-term freshwater quality data from federal and federal-provincial sampling sites throughout Canada's aquatic ecosystems are included in this dataset. Measurements regularly include physical-chemical parameters such as temperature, pH, alkalinity, major ions, nutrients and metals. Collection includes data from active sites, as well as historical sites that have a period of record suitable for trend analysis.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: ggmap, ggplot2, pryr, lattice, methods, magick, dplyr, grid, gridExtra, rjson, rlang, shiny
+RoxygenNote: 7.3.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+Config/testthat/edition: 3
